@@ -1,0 +1,31 @@
+{
+  "contact_info": {
+    "full_name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe",
+    "website": null
+  },
+  "summary": "Experienced professional with 2 years in Software Engineer...",
+  "skills": {},
+  "experience": [],
+  "education": [],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "English"
+  ],
+  "interests": [],
+  "metadata": {
+    "template_used": "Software Engineer_mid",
+    "generation_timestamp": "2026-02-02T14:28:09.242593",
+    "target_job_provided": false,
+    "iterations": 0,
+    "improvements": [],
+    "ats_compliance_score": 0.75
+  },
+  "id": "80063d04c499",
+  "stored_at": "2026-02-02T14:28:09.244897"
+}

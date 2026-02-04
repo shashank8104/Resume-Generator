@@ -1,0 +1,48 @@
+# Core ML Configuration
+model_config:
+  embedding_model: "all-MiniLM-L6-v2"
+  tfidf_max_features: 5000
+  min_match_threshold: 0.65
+  similarity_weights:
+    skills: 0.35
+    experience: 0.25
+    education: 0.15
+    projects: 0.15
+    keywords: 0.10
+
+# Resume Generation Settings
+generation:
+  templates_per_role: 3
+  max_bullet_points: 5
+  keyword_expansion_threshold: 0.7
+  iterative_improvement_rounds: 3
+  ats_compliance_checks: true
+
+# Content Generation
+content_generation:
+  max_email_length: 300
+  max_cover_letter_length: 500
+  tone_options: ["professional", "friendly", "formal"]
+  readability_min_score: 60
+
+# API Configuration
+api:
+  host: "0.0.0.0"
+  port: 8000
+  log_level: "INFO"
+  cors_origins: ["*"]
+  session_timeout: 3600
+
+# Data Processing
+data:
+  resume_batch_size: 100
+  job_description_sources: ["indeed", "linkedin", "synthetic"]
+  anonymization_level: "full"
+  supported_formats: ["json", "txt", "pdf"]
+
+# Evaluation Metrics
+evaluation:
+  test_split_ratio: 0.2
+  cv_folds: 5
+  metrics: ["accuracy", "precision", "recall", "f1", "latency"]
+  benchmark_roles: ["software_engineer", "data_scientist", "marketing_manager"]

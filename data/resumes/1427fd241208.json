@@ -1,0 +1,74 @@
+{
+  "contact_info": {
+    "full_name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": null,
+    "location": "San Francisco, CA",
+    "linkedin": null,
+    "github": null,
+    "website": null
+  },
+  "summary": "Experienced professional with 2 years in Data Scientist...",
+  "skills": {
+    "programming": [
+      "Java",
+      "JavaScript",
+      "Python"
+    ],
+    "frameworks": [
+      "Django",
+      "Flask",
+      "React"
+    ],
+    "tools": [
+      "AWS",
+      "Docker",
+      "Git"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Tech Corp",
+      "position": "Software Engineer",
+      "start_date": "2021-01-01",
+      "end_date": null,
+      "description": [
+        "Developed web applications",
+        "Developed collaborated with team",
+        "Collaborated with cross-functional teams to deliver features"
+      ],
+      "skills": [
+        "Python",
+        "React",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California",
+      "degree": "Bachelor of Science in Computer Science",
+      "level": "bachelor",
+      "major": "Computer Science",
+      "graduation_date": "2020-05-01",
+      "gpa": null,
+      "relevant_courses": []
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "English"
+  ],
+  "interests": [],
+  "metadata": {
+    "template_used": "data scientist_entry",
+    "generation_timestamp": "2026-02-02T13:33:59.482984",
+    "target_job_provided": false,
+    "iterations": 0,
+    "improvements": [],
+    "ats_compliance_score": 0.75
+  },
+  "id": "1427fd241208",
+  "stored_at": "2026-02-02T13:33:59.485771"
+}

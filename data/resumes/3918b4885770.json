@@ -1,0 +1,31 @@
+{
+  "contact_info": {
+    "full_name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe",
+    "website": null
+  },
+  "summary": "Experienced professional with 2 years in Data Scientist...",
+  "skills": {},
+  "experience": [],
+  "education": [],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "English"
+  ],
+  "interests": [],
+  "metadata": {
+    "template_used": "Data Scientist_entry",
+    "generation_timestamp": "2026-02-02T15:44:31.518035",
+    "target_job_provided": false,
+    "iterations": 0,
+    "improvements": [],
+    "ats_compliance_score": 0.75
+  },
+  "id": "3918b4885770",
+  "stored_at": "2026-02-02T15:44:31.519555"
+}

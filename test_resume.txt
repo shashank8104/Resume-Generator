@@ -1,0 +1,16 @@
+Test resume content for data analyst position.
+
+I am an experienced data analyst with skills in:
+- Python programming
+- SQL databases  
+- Data visualization
+- Statistical analysis
+- Machine learning
+- Excel and PowerBI
+
+Experience:
+- Data Analyst at Tech Company (2022-2024)
+- Business Analyst at Consulting Firm (2020-2022)
+
+Education:
+- Bachelor's in Computer Science (2020)
