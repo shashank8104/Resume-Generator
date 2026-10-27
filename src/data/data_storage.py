@@ -19,10 +19,13 @@ class DataStorage:
         self.jobs_dir = self.data_dir / "job_descriptions"
         self.metadata_dir = self.data_dir / "metadata"
         
-        # Create directories
-        self.resumes_dir.mkdir(parents=True, exist_ok=True)
-        self.jobs_dir.mkdir(parents=True, exist_ok=True)
-        self.metadata_dir.mkdir(parents=True, exist_ok=True)
+        # Create directories (may fail on read-only filesystems like Vercel serverless)
+        try:
+            self.resumes_dir.mkdir(parents=True, exist_ok=True)
+            self.jobs_dir.mkdir(parents=True, exist_ok=True)
+            self.metadata_dir.mkdir(parents=True, exist_ok=True)
+        except OSError:
+            logger.warning("Could not create data directories (read-only filesystem). Storage operations will be limited.")
         
         logger.info(f"Data storage initialized at {self.data_dir}")
     
